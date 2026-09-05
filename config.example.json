@@ -1,0 +1,32 @@
+{
+  "movie_name": "奥德赛",
+  "movie_id": 1545360,
+  "cinema_name": "CGV影城（清河IMAX店）",
+  "cinema_id": 5111,
+  "city_id": 1,
+  "show_date": "2026-09-05",
+  "monitor_at": "2026-09-04T19:00",
+  "time_range": {
+    "start": "18:00",
+    "end": "23:30"
+  },
+  "hall_keywords": ["IMAX", "杜比"],
+  "require_preferred_hall": true,
+  "exclude_hall_keywords": ["情侣厅"],
+  "format_keywords": ["IMAX2D"],
+  "poll_interval": 5,
+  "monitor_minutes": 30,
+  "lookback_days": 7,
+  "auto_open_seat": true,
+  "auto_submit_order": true,
+  "browser_preference": "auto",
+  "seat_presets": {
+    "4号IMAX激光厅(北京BYYDS)": {
+      "groups": [
+        {"row": "8", "seats": ["9", "10"]},
+        {"row": "8", "seats": ["11", "12"]},
+        {"row": "7", "seats": ["9", "10"]}
+      ]
+    }
+  }
+}
